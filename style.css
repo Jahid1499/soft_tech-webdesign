@@ -1,0 +1,598 @@
+/*font-family: 'robotolight';*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'robotolight';
+    position: relative;
+}
+
+header {
+    background: #000000;
+}
+
+.toTop {
+    position: fixed;
+    right: 60px;
+    bottom: 30px;
+    color: #fff;
+    background: #82CA9C;
+    text-decoration: none;
+    padding: 10px 30px;
+    transition: 1s all ease;
+
+}
+
+.toTop:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu a {}
+
+header a {
+    color: white;
+}
+
+header a,
+span {
+    font-size: 12px;
+}
+
+header a:hover {
+    color: #82CA97;
+    text-decoration: none;
+}
+
+hader a span:hover {
+    color: #82CA97;
+
+}
+
+.my-navbar {
+    background: #FFFFFF;
+}
+.my-navbar .navbar{}
+.my-navbar .navbar a{}
+.my-navbar .navbar a span{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.my-navbar .btn-outline-success {
+    color: #A2D8B5;
+    border-color: #A2D8B5;
+}
+
+.my-navbar .btn {
+    border-radius: 25px;
+    padding: 2px 30px;
+    font-size: 15px;
+    font-weight: bold
+}
+
+.my-navbar .btn:hover {
+    background: #A2D8B5;
+    color: white;
+
+}
+
+.nab-text li a {
+    font-size: 15px;
+    color: #000 !important;
+    font-weight: bold;
+}
+
+.nab-text li a:hover {
+    color: #A2D8B5 !important;
+}
+
+.nab-text li .active {
+    color: #a2d8b5 !important;
+}
+
+
+.banner-section {
+    background-image: url(img/homebg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+
+
+}
+
+.my-section {
+    padding: 200px 0;
+}
+
+.banner-section div p {
+    padding-left: 15%;
+}
+
+.banner-section div h2 {
+    font-size: 50px;
+}
+
+.banner-section div form div div a div {
+    background: #37c169;
+    color: white;
+    border-radius: 0;
+}
+
+.banner-section div form div div a:hover {
+    background: #37c169;
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+.banner-section div form div div a div:hover {}
+
+.banner-section div form div input {
+    padding: 28px;
+    border-radius: 0;
+}
+
+.product-sectiion {}
+
+.product-sectiion div div {}
+
+.product-sectiion div div h2 {
+    font-size: 37px;
+}
+
+.product-sectiion div div p {
+    font-size: 17px;
+    line-height: 23px;
+}
+
+.product-sectiion div div a {
+    background: #82CA9C;
+    color: white;
+    border-radius: 0;
+    padding: 12px 36px;
+}
+
+.product-sectiion div div a:hover {
+    background: #40C16E;
+}
+
+.product-sectiion div div img {}
+
+.service-img {
+    width: 70px;
+}
+
+.service-section {
+    background: #F9F9F9;
+}
+.service-section div div h1{}
+.service-section div div p{}
+
+.card-body ul li {
+    line-height: 60px;
+}
+
+.btn-service {
+    background: #82CA9C;
+}
+.service-pakage div div h1{}
+.service-pakage div div p{}
+
+.fa-check-circle:before {
+    color: #82CA9C;
+    padding-right: 5px;
+    font-size: 20px;
+}
+
+.card-footer {
+    background: #82CA9C;
+
+}
+
+.card-header {
+    background: #fff;
+}
+
+.card-footer a {
+    color: white;
+}
+
+.card-footer a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+.my-active {
+    background: #82CA9C;
+}
+
+.form-control {
+    border-radius: 0;
+    padding: 24px 10px;
+}
+
+.anlutics-section {
+    background: #F4F4F4;
+}
+
+.anlutics-section .card {
+    box-shadow: 2px 3px 14px 1px #ddd;
+}
+
+.anlutics-section .card:hover {
+    color: white;
+    background: #82CA9C;
+}
+
+.anlutics-section .card:hover i {
+    color: white;
+    background: #82CA9C;
+}
+
+.anlutics-section .card .card-header {
+    width: 100px;
+    margin-left: 78px;
+    padding: 0;
+    border-bottom: 2px solid #ddd;
+    box-sizing: border-box;
+}
+
+.anlutics-section .card i {
+    font-size: 60px;
+    padding: 31px 28px 30px;
+    color: #82CA9C;
+}
+
+.anlutics-text {
+    font-size: 13px;
+}
+
+.set-in-touch div div div h1{}
+.set-in-touch div div div p{}
+
+.get-in-touch-icon a .fab {
+    font-size: 15px;
+    width: 35px;
+    height: 35px;
+    padding: 10px 10px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    margin-right: 5px;
+    color: #000;
+}
+
+.get-in-touch-icon a .fab:hover {
+    border: 1px solid #B98BA7;
+    color: #B98BA7;
+}
+
+.set-in-touch-btn {
+    background: #82CA9C;
+    padding: 15px 50px;
+    color: white;
+}
+
+.set-in-touch-btn:hover {
+    text-decoration: none;
+    background: #40C16E;
+    color: white;
+}
+
+.other-section {
+    background: #EFEFEF;
+}
+
+.other-section ul li {
+    font-size: 13px;
+    line-height: 33px;
+}
+
+.sec-button {}
+
+.sec-button a div {
+    border-radius: 0;
+    padding: 12px 10px;
+    background: #82CA9C;
+    color: white;
+}
+
+.sec-button a:hover {
+    text-decoration: none;
+
+}
+
+.sec-button a div:hover {
+    background-color: #40C16E;
+}
+
+.footer-color {
+    color: #32E10A;
+}
+
+.fa-heart {
+    color: red;
+}
+
+.my-get-toch-div {}
+
+@media (max-width: 992px) {
+
+    .anlutics-section .card .card-header {
+        margin-left: 48px !important;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .banner-section div p {
+
+        padding-left: 0%;
+
+    }
+
+    .banner-section div h2 {
+
+        font-size: 38px;
+
+    }
+
+
+
+    .anlutics-section .card .card-header {
+        margin-left: 19px !important;
+    }
+
+    .product-sectiion div div {
+
+        padding-top: 0 !important;
+
+    }
+
+    .service-section {
+
+        padding-top: 50px;
+
+    }
+
+    form {
+        display: inline !important;
+    }
+
+    .text-right {
+        font-size: 12px !important;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    .banner-section div p {
+        padding-left: 0%;
+    }
+
+    .mx-auto {
+        display: inline;
+    }
+
+    .my-section {
+        padding: 0px 0px 72px 0px;
+    }
+
+
+
+    .py-5 {
+
+        padding-bottom: 0;
+
+    }
+
+    .pb-5 {
+
+        padding-bottom: 0;
+
+    }
+
+    .anlutics-section .card .card-header {
+        margin-left: 206px !important;
+    }
+
+
+    .anlutics-section .card i {
+
+        padding: 31px 28px 30px;
+
+    }
+    .anlutics-section div div h1{}
+    .anlutics-section div div p{}
+
+    .py-4 {
+        padding-bottom: 11px;
+    }
+
+    .product-sectiion div div {
+
+        padding: 0 !important;
+
+    }
+
+    .my-get-toch-div {
+        margin-top: 40px;
+        padding-left: 0px;
+    }
+
+    .product-sectiion {
+
+        padding-bottom: 45px;
+
+    }
+
+    .media {
+
+        padding-bottom: 32px;
+
+    }
+
+    .pb-5,
+    .py-5 {
+
+        padding-bottom: 0 !important;
+
+    }
+
+    .service-section {
+        padding-top: 50px;
+    }
+
+    .card {
+
+        margin-bottom: 40px;
+
+    }
+
+    .form {
+
+        margin-bottom: 50px;
+
+    }
+
+    .other-section {
+
+        padding-bottom: 45px !important;
+
+    }
+
+    .text-right {
+
+        font-size: 21px !important;
+        padding: 2px 0;
+
+    }
+
+    .logo-img {
+        text-align: center;
+    }
+
+    .anlutics-section {
+
+        padding-top: 0 !important;
+
+    }
+
+    .anlutics-section .card .card-header {
+
+        margin-left: 200px;
+
+    }
+
+    .other-section {
+        padding-top: 0 !important;
+    }
+}
+
+@media (max-width: 320px) {
+    .navbar-light .navbar-toggler {
+        text-align: right;
+        width: 83%;
+        border-radius: 0;
+    }
+
+    .banner-section {
+        display: none;
+    }
+    .service-section div div h1 {
+
+    font-size: 26px;
+
+}
+
+    .product-sectiion div div {
+        padding: 0px 17px !important;
+    }
+    .product-sectiion div div h2 {
+    font-size: 23px;
+}
+    .service-section div div p {
+    font-size: 12px;
+    padding: 0px 29px;
+    text-align: justify;
+}
+    .service-pakage div div h1 {
+
+    font-size: 23px;
+
+}
+    .product-sectiion div div p {
+    font-size: 14px;
+    line-height: 19px;
+}
+    .service-pakage div div p {
+
+    font-size: 14px;
+    text-align: justify;
+    line-height: 0px;
+
+}
+    .anlutics-section div div h1 {
+    font-size: 20px;
+}
+    .set-in-touch div div div p {
+    font-size: 14px;
+}
+    .anlutics-section div div p {
+
+    font-size: 12px;
+
+}
+    .set-in-touch div div div h1 {
+    font-size: 30px;
+}
+    .anlutics-section .card .card-header {
+
+    margin-left: 91px !important;
+
+}
+    .my-second-form{
+        display: none !important;
+    }
+    .toTop {
+
+    right: 5px;
+    bottom: 12px;
+    padding: 5px 20px;
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
